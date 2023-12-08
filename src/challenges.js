@@ -99,6 +99,14 @@ function uniquifyArray(Arr) {
   return nonDupArray;
 }
 
+// function uniquifyArray(array) {
+//   const finalArray : []
+//   if (!array.length) {
+//     return null
+//   }
+//   return [...new Set(array)]
+// }
+
 // Bonus: Iteration 6 | Product of Adjacent Numbers
 const matrix = [
   [8, 2, 22, 97, 38, 15, 0, 40, 0, 75, 4, 5, 7, 78, 52, 12, 50, 77, 91, 8],
